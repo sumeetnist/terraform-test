@@ -1,0 +1,7 @@
+- id: tflint
+  name: tflint
+  description: linter for terraform code
+  entry: hooks/tflint.sh
+  language: script
+  files: \.tf$
+  exclude: \.+.terraform\/.*$
