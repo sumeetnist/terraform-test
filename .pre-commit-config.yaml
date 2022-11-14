@@ -1,6 +1,6 @@
 ---
 repos:
-  - repo: 
+  - repo: https://github.com/vkseth/vfde-pre-commit-hooks
     rev: v0.0.9
     hooks:
-      - id: terraform-
+      - id: tflint
