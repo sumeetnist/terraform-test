@@ -1,4 +1,3 @@
----
 repos:
   - repo: https://github.com/vkseth/vfde-pre-commit-hooks
     rev: v2.3.4
