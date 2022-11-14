@@ -3,10 +3,10 @@
 #     rev: v2.3.4
 #     hooks:
 #       - id: tflint
-
+default_stages: [commit]
 repos:
--   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v2.3.0
-    hooks:
-    -   id: tflint
+  -  repo: https://github.com/pre-commit/pre-commit-hooks
+     rev: v2.3.0
+     hooks:
+  -  id: tflint
 
